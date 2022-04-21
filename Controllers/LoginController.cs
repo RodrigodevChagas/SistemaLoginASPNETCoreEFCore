@@ -8,5 +8,11 @@ namespace SistemaLogin.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Logar(string username, string senha) { 
+        
+            return Json(new{});
+        }
     }
 }
